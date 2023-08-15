@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 6px;
+    margin: 0;
+    }
+
+h3{
+    text-decoration-line: underline;
+}
+
+    h1{
+        color: rgb(12, 124, 78);
+        font-weight: bold;
+    }
+
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 15px;
+    margin-left: 300px;
+
+}
+
+form{
+    max-width: 650px;
+    width: 650%;
+    margin-left: 300px;
+}
+
+.form-campo input, 
+.form-campo textarea{
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+button{
+    color: aliceblue;
+    cursor: pointer;
+    background-color: green;
+}
+
+.form-campo label{
+    font-weight: bold;
+    display: block;
+}
